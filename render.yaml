@@ -1,0 +1,4 @@
+build:
+  - name: Node.js Build
+    env: node
+    script: npm install
