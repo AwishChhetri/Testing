@@ -174,7 +174,7 @@ app.post("/login",async(req,res)=>{
         //         console.log(`Hence the generated token:${token}`);
         //         res.cookie('__token',token);
         //         // console.log(res);
-                res.redirect('/Account');
+        res.redirect('/Questions');
 
     } 
 
